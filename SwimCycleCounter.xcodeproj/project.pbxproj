@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78564CBC1AAA211A00CB48FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78564CBB1AAA211A00CB48FB /* main.m */; };
+		78564CBF1AAA211A00CB48FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78564CBE1AAA211A00CB48FB /* AppDelegate.m */; };
+		78564CC21AAA211A00CB48FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78564CC11AAA211A00CB48FB /* ViewController.m */; };
+		78564CC51AAA211A00CB48FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78564CC31AAA211A00CB48FB /* Main.storyboard */; };
+		78564CC71AAA211A00CB48FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78564CC61AAA211A00CB48FB /* Images.xcassets */; };
+		78564CCA1AAA211A00CB48FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78564CC81AAA211A00CB48FB /* LaunchScreen.xib */; };
+		78564CD61AAA211A00CB48FB /* SwimCycleCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78564CD51AAA211A00CB48FB /* SwimCycleCounterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78564CD01AAA211A00CB48FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78564CAE1AAA211A00CB48FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78564CB51AAA211A00CB48FB;
+			remoteInfo = SwimCycleCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78564CB61AAA211A00CB48FB /* SwimCycleCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimCycleCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78564CBA1AAA211A00CB48FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78564CBB1AAA211A00CB48FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78564CBD1AAA211A00CB48FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78564CBE1AAA211A00CB48FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78564CC01AAA211A00CB48FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78564CC11AAA211A00CB48FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78564CC41AAA211A00CB48FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78564CC61AAA211A00CB48FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78564CC91AAA211A00CB48FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		78564CCF1AAA211A00CB48FB /* SwimCycleCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimCycleCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78564CD41AAA211A00CB48FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78564CD51AAA211A00CB48FB /* SwimCycleCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwimCycleCounterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78564CB31AAA211A00CB48FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78564CCC1AAA211A00CB48FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78564CAD1AAA211A00CB48FB = {
+			isa = PBXGroup;
+			children = (
+				78564CB81AAA211A00CB48FB /* SwimCycleCounter */,
+				78564CD21AAA211A00CB48FB /* SwimCycleCounterTests */,
+				78564CB71AAA211A00CB48FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78564CB71AAA211A00CB48FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78564CB61AAA211A00CB48FB /* SwimCycleCounter.app */,
+				78564CCF1AAA211A00CB48FB /* SwimCycleCounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78564CB81AAA211A00CB48FB /* SwimCycleCounter */ = {
+			isa = PBXGroup;
+			children = (
+				78564CBD1AAA211A00CB48FB /* AppDelegate.h */,
+				78564CBE1AAA211A00CB48FB /* AppDelegate.m */,
+				78564CC01AAA211A00CB48FB /* ViewController.h */,
+				78564CC11AAA211A00CB48FB /* ViewController.m */,
+				78564CC31AAA211A00CB48FB /* Main.storyboard */,
+				78564CC61AAA211A00CB48FB /* Images.xcassets */,
+				78564CC81AAA211A00CB48FB /* LaunchScreen.xib */,
+				78564CB91AAA211A00CB48FB /* Supporting Files */,
+			);
+			path = SwimCycleCounter;
+			sourceTree = "<group>";
+		};
+		78564CB91AAA211A00CB48FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78564CBA1AAA211A00CB48FB /* Info.plist */,
+				78564CBB1AAA211A00CB48FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78564CD21AAA211A00CB48FB /* SwimCycleCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				78564CD51AAA211A00CB48FB /* SwimCycleCounterTests.m */,
+				78564CD31AAA211A00CB48FB /* Supporting Files */,
+			);
+			path = SwimCycleCounterTests;
+			sourceTree = "<group>";
+		};
+		78564CD31AAA211A00CB48FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78564CD41AAA211A00CB48FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78564CB51AAA211A00CB48FB /* SwimCycleCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78564CD91AAA211A00CB48FB /* Build configuration list for PBXNativeTarget "SwimCycleCounter" */;
+			buildPhases = (
+				78564CB21AAA211A00CB48FB /* Sources */,
+				78564CB31AAA211A00CB48FB /* Frameworks */,
+				78564CB41AAA211A00CB48FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwimCycleCounter;
+			productName = SwimCycleCounter;
+			productReference = 78564CB61AAA211A00CB48FB /* SwimCycleCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78564CCE1AAA211A00CB48FB /* SwimCycleCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78564CDC1AAA211A00CB48FB /* Build configuration list for PBXNativeTarget "SwimCycleCounterTests" */;
+			buildPhases = (
+				78564CCB1AAA211A00CB48FB /* Sources */,
+				78564CCC1AAA211A00CB48FB /* Frameworks */,
+				78564CCD1AAA211A00CB48FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78564CD11AAA211A00CB48FB /* PBXTargetDependency */,
+			);
+			name = SwimCycleCounterTests;
+			productName = SwimCycleCounterTests;
+			productReference = 78564CCF1AAA211A00CB48FB /* SwimCycleCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78564CAE1AAA211A00CB48FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Igor Kimieciki";
+				TargetAttributes = {
+					78564CB51AAA211A00CB48FB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					78564CCE1AAA211A00CB48FB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 78564CB51AAA211A00CB48FB;
+					};
+				};
+			};
+			buildConfigurationList = 78564CB11AAA211A00CB48FB /* Build configuration list for PBXProject "SwimCycleCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78564CAD1AAA211A00CB48FB;
+			productRefGroup = 78564CB71AAA211A00CB48FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78564CB51AAA211A00CB48FB /* SwimCycleCounter */,
+				78564CCE1AAA211A00CB48FB /* SwimCycleCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78564CB41AAA211A00CB48FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78564CC51AAA211A00CB48FB /* Main.storyboard in Resources */,
+				78564CCA1AAA211A00CB48FB /* LaunchScreen.xib in Resources */,
+				78564CC71AAA211A00CB48FB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78564CCD1AAA211A00CB48FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78564CB21AAA211A00CB48FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78564CC21AAA211A00CB48FB /* ViewController.m in Sources */,
+				78564CBF1AAA211A00CB48FB /* AppDelegate.m in Sources */,
+				78564CBC1AAA211A00CB48FB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78564CCB1AAA211A00CB48FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78564CD61AAA211A00CB48FB /* SwimCycleCounterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78564CD11AAA211A00CB48FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78564CB51AAA211A00CB48FB /* SwimCycleCounter */;
+			targetProxy = 78564CD01AAA211A00CB48FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78564CC31AAA211A00CB48FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78564CC41AAA211A00CB48FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78564CC81AAA211A00CB48FB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78564CC91AAA211A00CB48FB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78564CD71AAA211A00CB48FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78564CD81AAA211A00CB48FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78564CDA1AAA211A00CB48FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwimCycleCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78564CDB1AAA211A00CB48FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwimCycleCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78564CDD1AAA211A00CB48FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwimCycleCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimCycleCounter.app/SwimCycleCounter";
+			};
+			name = Debug;
+		};
+		78564CDE1AAA211A00CB48FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwimCycleCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimCycleCounter.app/SwimCycleCounter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78564CB11AAA211A00CB48FB /* Build configuration list for PBXProject "SwimCycleCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78564CD71AAA211A00CB48FB /* Debug */,
+				78564CD81AAA211A00CB48FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78564CD91AAA211A00CB48FB /* Build configuration list for PBXNativeTarget "SwimCycleCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78564CDA1AAA211A00CB48FB /* Debug */,
+				78564CDB1AAA211A00CB48FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78564CDC1AAA211A00CB48FB /* Build configuration list for PBXNativeTarget "SwimCycleCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78564CDD1AAA211A00CB48FB /* Debug */,
+				78564CDE1AAA211A00CB48FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78564CAE1AAA211A00CB48FB /* Project object */;
+}
