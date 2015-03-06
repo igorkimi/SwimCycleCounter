@@ -55,6 +55,7 @@
     formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:@"mm:ss.SSS"];
     dateString = [formatter stringFromDate:[NSDate date]];
+    NSTimeInterval secondsBetween = [NSDate date] timeIntervalSinceDate:self.startTime];
     
     NSLog(@"%@",dateString);
     // decrement timer 1 … this is your UI, tick down and redraw
